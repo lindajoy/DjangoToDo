@@ -3,7 +3,7 @@ from lists import models
 from . import serializers
 from rest_framework import generics
 
-class ListToDo(generics.ListCreateAPIView):
+class todo(generics.ListCreateAPIView):
     queryset = models.list.objects.all()
     serializer_class = serializers.ListSerializer
 

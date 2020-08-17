@@ -7,6 +7,7 @@ class ListSerializer(serializers.ModelSerializer):
             'id',
             'Title',
             'Description',
+            'completed',
         )
 
         model = models.list
