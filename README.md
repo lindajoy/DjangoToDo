@@ -33,3 +33,10 @@ python3 manage.py migrate
 ```sh
 python3 manage.py runserver
 ```
+My Endpoints include:
+```
+http://127.0.0.1:8000/api/v1/  - Shows the lists of things to be done
+http://127.0.0.1:8000/api/v1/1/ - Shows the details of a specific list
+http://127.0.0.1:8000/api/v1/rest-auth/login/ - Django Authentication
+http://127.0.0.1:8000/api/v1/rest-auth/logout/ - For users to logout
+```
