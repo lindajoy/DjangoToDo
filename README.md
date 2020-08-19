@@ -1,6 +1,8 @@
 # EasySolar
 A simple project with django (backend ) and flutter (frontend)
 
+Built a Django Application , added Django REST framework Application and <b>django_rest_auth</b> to handle authentication.
+
 ## Django - SRC Folder
 Core is written in Python3.7 and Django 2.2
 
