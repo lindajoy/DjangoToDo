@@ -29,7 +29,9 @@ pipenv install django-rest-auth
 * Run database migrations with this command
 
 ```sh
-python3 manage.py migrate
+
+python manage.py makemigrations
+python manage.py migrate
 ```
 
 * Run server to ensure everything is working properly.
