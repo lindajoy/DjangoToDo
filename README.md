@@ -42,3 +42,12 @@ http://127.0.0.1:8000/api/v1/1/ - Shows the details of a specific list
 http://127.0.0.1:8000/api/v1/rest-auth/login/ - Django Authentication
 http://127.0.0.1:8000/api/v1/rest-auth/logout/ - For users to logout
 ```
+# Frontend
+
+## open new terminal and go to the flutter_app
+cd flutter_app
+## get flutter packages
+flutter packages get
+## run Flutter project
+flutter run
+```
