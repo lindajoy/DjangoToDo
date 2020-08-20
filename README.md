@@ -11,7 +11,7 @@ Core is written in Python3.7 and Django 2.2
 * First, clone the repository:
 
 ```sh
-git clone https://github.com/lindajoy/EasySolar
+git clone https://github.com/lindajoy/DjangoToDo
 cd src
 ```
 
@@ -21,6 +21,8 @@ cd src
 ```sh
 pipenv --python 3.7 install django==2.2
 pipenv shell
+pipenv install djangorestframework
+pipenv install django-rest-auth
 ```
 
 
